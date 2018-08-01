@@ -1,0 +1,58 @@
+html{
+  background-color: rgb(200,256,200);
+}
+body{
+  max-width:60%;
+  margin: -35px auto;
+  background-color:rgb(230,256,230);
+  font-family:Optima;
+  box-shadow: 30px 30 0 0 rgb(0,0,0);
+  box-shadow: 0 0 30px 0 rgb(200,230,200);
+}
+
+h1{
+  font-style: italic;
+  font-size: 50px;
+  padding: 20px 0 30px 20px;
+  border-bottom: 1px black solid;
+  background-image:url("./Photos/Map.jpg");
+}
+.row{
+  border:1px Green solid;
+  height:100px;
+}
+.column1{
+  display:inline-block;
+  width:40%;
+  position:relative;
+  bottom:15px;
+  font-family:Snell Roundhand, cursive;
+  left:20px;
+}
+h3{
+  font-size:25px;
+}
+h4{
+  font-size:15px;
+}
+.column2{
+  display:inline-block;
+  width:30%;
+  overflow:hidden;
+  text-align:center;
+  border:1px black solid;
+  position: relative;
+  bottom:8px;
+}
+.column3{
+  display:inline-block;
+  width:25%;
+}
+figure img{
+  max-width:110px;
+  height:80px;
+}
+
+#darker{
+    background-color:rgb(210,240,210);
+}
