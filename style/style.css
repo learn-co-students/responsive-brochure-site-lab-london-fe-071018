@@ -1,0 +1,100 @@
+@media (max-width: 1108px) {
+  body {
+    font-family: helvetica;
+    padding: 150px
+  }
+}
+@media only screen and (max-width: 768px) {
+   body {
+    font-family: helvetica;
+    width: auto;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .active {
+    background-color: gray;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .images1 {
+    float: left;
+    width: 50%;
+    padding 30px;
+  }
+  
+  .north:hover {
+    box-shadow: 0 0 10px;
+    height: 370px; 
+    width: 600px;
+    transition: transform 1s ease-in-out;
+    background: #60D4C8;
+    }
+    
+    .north:hover .title class {
+      display: none;
+    }
+    
+    .north:hover .title:after {
+      content: "North";
+    }
+    
+  .east:hover {
+    box-shadow: 0 0 10px;
+    height: 370px; 
+    width: 600px;
+    transition: transform 0.2s linear;
+    }
+  
+  p {
+    padding: 30px;
+    margin: 20px;
+    text-align: justify;
+    column-count: 2;
+    column-gap: 30px;
+  }
+  
+  .images2 {
+    position: relative;
+    display: inline;
+  }
+    
+  .south:hover {
+    box-shadow: 0 0 10px;
+    height: 370px; 
+    width: 600px;
+    transition: transform 0.2s linear;
+    }
+    
+  .west:hover {
+    box-shadow: 0 0 10px;
+    height: 370px; 
+    width: 600px;
+    transition: transform 0.2s linear;
+    }
+    
+  
