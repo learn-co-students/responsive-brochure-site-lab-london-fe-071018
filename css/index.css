@@ -98,13 +98,18 @@ footer {
 .item-grey {
   background-color: #7aa9da;
   color: white;
-  
-}
-.copy {
+  height: 50px;
+  overflow: scroll;
+
+ 
   
 }
 
+.item-grey:hover {
+  
+  background-color: #61efdd;
+}
 
   
   
-}
+

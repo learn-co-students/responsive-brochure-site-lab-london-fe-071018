@@ -3,9 +3,12 @@
   main {
     width: 100%;
     height: 100%;
-  
+  font-size: 2em;
 }
-
+.flex-container {
+  
+  font-size: 2em;
+}
 
 .index {
   
