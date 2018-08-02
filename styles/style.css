@@ -1,58 +1,105 @@
 html{
-  background-color: rgb(200,256,200);
+  background-image: url("../Photos/scene.jpg");
 }
 body{
   max-width:60%;
   margin: -35px auto;
-  background-color:rgb(230,256,230);
+  background-color:rgba(230,256,230,0.85);
   font-family:Optima;
-  box-shadow: 30px 30 0 0 rgb(0,0,0);
-  box-shadow: 0 0 30px 0 rgb(200,230,200);
 }
 
+h2{
+  margin-left:20px;
+}
 h1{
   font-style: italic;
   font-size: 50px;
   padding: 20px 0 30px 20px;
   border-bottom: 1px black solid;
-  background-image:url("./Photos/Map.jpg");
 }
 .row{
   border:1px Green solid;
   height:100px;
+  display:flex;
 }
-.column1{
-  display:inline-block;
-  width:40%;
-  position:relative;
-  bottom:15px;
-  font-family:Snell Roundhand, cursive;
-  left:20px;
-}
+
 h3{
-  font-size:25px;
+  font-size:22px;
+  padding-left: 10px;
 }
 h4{
   font-size:15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
-.column2{
-  display:inline-block;
-  width:30%;
-  overflow:hidden;
-  text-align:center;
+.row .column1{
+  flex:1.1;
+  font-family:Snell Roundhand, cursive;
+  order:1;
+}
+.column1 a{
+  color:black;
+  font-style: none;
+}
+.column1 a:hover{
+  color:green;
+  font-style: none;
+}
+.row .column2{
+  flex:1;
+  order:2;
+  border-radius: 25px;
+  border:1px green solid;
+  height:90%;
+  width:90%;
+  margin:auto auto;
+  overflow:scroll;
+  
+}
+.row .column2:hover{
+  flex:2.5;
+}
+.column2 p{
+  height:70%;
+  width:90%;
+  margin: 10px auto;
+  font-size:90%;
+}
+.row .column3{
+  flex:1;
+  order:3;
   border:1px black solid;
+}
+.column3 img {
+    width:100%;
+    height:100%;
+    margin:auto auto;
+    padding:0;
+    object-fit: cover;
+}
+footer{
+  position:fixed;
+  display:flex;
+  background-color:rgb(230,256,230);
+  width:60%;
+}
+
+.bigcolumn{
+  width:50%;
+}
+.bigcolumn ul{
   position: relative;
   bottom:8px;
 }
-.column3{
-  display:inline-block;
-  width:25%;
-}
-figure img{
-  max-width:110px;
-  height:80px;
+ul li{
+  font-size:90%;
 }
 
+.oddrow{
+  background-color:rgb(210,240,210);
+}
 #darker{
     background-color:rgb(210,240,210);
+    box-shadow: 30px 30 0 0 rgb(0,0,0);
+    box-shadow: 0 0 30px 0 rgb(200,230,200);
 }
