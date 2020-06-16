@@ -1,0 +1,34 @@
+@media (max-width: 380px){
+  
+  main {
+    width: 100%;
+    height: 100%;
+  font-size: 2em;
+}
+.flex-container {
+  
+  font-size: 2em;
+}
+
+.index {
+  
+  flex-basis: 100%;
+}
+
+
+}
+
+@media (min-width:1240px) {
+  .flex-container {
+    min-height: 100vh;
+  }
+
+}
+
+@media (max-width: 556px) {
+  
+  form {
+    display:flex;
+    flex-direction: column;
+  }
+}
